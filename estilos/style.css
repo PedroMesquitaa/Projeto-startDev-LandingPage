@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Conec';
+    src: url('Connectionlii-Rj3W.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+header{
+    background: #F9FAFB;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#title{ 
+    background-color: black;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+}
+
+#title > p{
+    font-family: 'Conec', 'Courier New', Courier, monospace;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
